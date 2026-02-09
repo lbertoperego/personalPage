@@ -1,47 +1,5 @@
 const blogPosts = [
     {
-        id: "bauer-becker-2020",
-        title: "Bauer and Becker 2020: Democratic backsliding, populism and the public administration",
-        date: "2020",
-        imageDescription: "Placeholder: image to be added.",
-        image: "assets/blog_images/placeholder.svg",
-        link: "",
-        summary: "This seminal piece links public administration scholarship with democratic backsliding and populism, offering a matrix of strategies populist leaders use to gain control of national bureaucracies.",
-        content: `
-            <h3>Introduction and context:</h3>
-            <p>This seminal piece fills a fundamental gap in the literature by linking public administration scholarship with the recent democratic backsliding phenomenon that has interested political scientists (and our society) in the last decade.</p>
-            <p>After the populist threat became a reality of government in several countries, political scientists have turned to studying the effect of populism on several aspects. Yet its impact on public organisations' functioning and effectiveness has only been marginally explored. But first, what is populism? And why is it linked to democratic backsliding? Although it is difficult to condense such a rich literature in only a few lines, I want to pinpoint the dominant definitions for clarity. It is indeed one of the authors' main preoccupations: getting a shared and clear definition of main concepts is a necessary prerequisite for advancing knowledge.</p>
-            <ul>
-                <li><strong>Democratic backsliding:</strong> idea associated with the erosion of political pluralism and "executive aggrandizement" (Bermeo, 2016).</li>
-                <li><strong>Populism:</strong> thin-centered ideology that divides society into two homogeneous, antagonistic camps—"the pure people" vs "the corrupt elite"—and holds that politics should express the people's general will (Mudde and Kaltwasser).</li>
-            </ul>
-            <p>Here, the authors focus on the implications that democratic backsliding has for the inner functioning of government, and refocus attention on different concrete strategies that have been implemented by populist leaders to gain control of national bureaucracies. They provide a matrix-type categorisation and brief case studies.</p>
-            <h3>Main insights:</h3>
-            <p>Their argument relies on a clear chain of thought:</p>
-            <p>The public administration has evolved to become an impartial and democratic institution &rarr; Populists dislike pluralism and democracy &rarr; Populists want to reform the public administration to gain more direct control of policy implementation, making it "an instrument of populist rule".</p>
-            <p>But populists' strategies are not uniform with regard to changing PA; different strategies emerged over time depending on two dimensions:</p>
-            <ol>
-                <li>The ideology regarding the role of PA of each populist movement, which can span from negative (PA is just an obstacle to be minimised) to positive (PA is a necessary apparatus of the state).</li>
-                <li>The robustness of the administrative order in the specific context.</li>
-            </ol>
-            <p>Based on the interaction of these different elements, the authors describe four different strategies, with four brief case studies accompanying each:</p>
-            <h4>1. Capturing – Orbán in Hungary (positive view, weak state):</h4>
-            <p>After returning to power in 2010, Viktor Orbán initiated a broad set of reforms aimed at reshaping Hungary's political system toward what he has openly termed an "illiberal democracy." A central pillar of this transformation has been the capture of the state apparatus. In practice, the government pursued administrative centralisation by reducing the autonomy and resources of subnational offices and consolidating ministries and agencies, thereby expanding the Prime Minister's Office's capacity to coordinate and monitor policy implementation. In parallel, Orbán's reforms increased political control over the senior civil service by widening discretion in top-level appointments and reinforcing the politicisation of bureaucratic careers, also through performance management tools that rewarded political loyalty.</p>
-            <h4>2. Dismantling – Alberto Fujimori's presidency (1990–2000):</h4>
-            <p>Alberto Fujimori's presidency (1990–2000) illustrates how an anti-state populist project can rapidly dismantle public administration when it encounters a fragile administrative order. After his 1992 self-coup suspended the legislature and judiciary, checks and balances remained weak, creating permissive conditions for administrative restructuring. He created a Ministry of the Presidency that took charge of major infrastructure and spending programmes, increasing presidential steering capacity. He also reversed limited decentralisation by closing regional assemblies and replacing them with local offices staffed by politically appointed members.</p>
-            <h4>3. Sabotaging – the Trump case:</h4>
-            <p>The Trump case represents an anti-state populist agenda operating under a robust administrative order that constrains large-scale transformation—shifting the strategy from capture towards sabotage. The authors emphasise that institutional checks (courts, Congress, federalism) and bureaucratic resistance limited implementation, leaving the administration with incentives to disrupt rather than redesign administrative capacity. A key instrument was personnel politicisation taken to an extreme: installing agency leaders hostile to their agencies' missions, leaving posts vacant to impede initiative, and sidelining expertise within departments. This contributed to significant attrition among skilled staff. The administration also pursued resource-based pressure, proposing steep budget cuts and agency eliminations, paired with internal directives limiting contact with media and civil society and constraining consultation in rulemaking.</p>
-            <h4>4. Reforming – Christoph Blocher and the Swiss People's Party (SVP):</h4>
-            <p>Christoph Blocher and the Swiss People's Party (SVP) illustrate a case where a populist actor with a comparatively more positive orientation pursues reform but is sharply constrained by the administrative and political order. The SVP combined neoliberal criticism of bureaucracy with demands for a "lean state," while still supporting an active state role in areas such as public safety and social protection. Yet Switzerland's coalition government structure limited executive reach: the SVP controlled only two of seven ministries and operated in a system emphasising regional autonomy and minority protection. Consequently, administrative effects were modest—Blocher claimed a constrained growth of his department, but the party itself characterised most achievements as only slight.</p>
-            <h3>Reflection:</h3>
-            <p>In the current rapidly transforming world that we live in, Bauer and Becker's case studies are already outdated. New strategies have been tested, some partially successful, others less so. What is becoming clearer in my opinion is that populism is indeed a global movement but not a global ideology. While I see commonalities worldwide in the electoral strategies adopted, populist leaders' views and policies when they are in government diverge substantially—with public administration reform as a prime case.</p>
-            <p>Consider two right-wing populist leaders who ultimately came to power: Giorgia Meloni in Italy and Donald Trump in the United States. During campaigns, their rhetoric can appear broadly comparable—scepticism toward establishment institutions, emphasis on national sovereignty, and sharp critiques of administrative "inefficiency." But in office, their trajectories point in different directions, suggesting that populism's relationship with the administration is not unequivocal.</p>
-            <p>Contrary to expectations, Meloni has proceeded to implement merit-oriented reforms and a general push for increasing the size of government staffing. This was combined with strict public finance policies and moderation in debt management.</p>
-            <p>If this trajectory holds, it may represent an outlier in the contemporary populist landscape. More importantly, it complicates the assumption that populism in power necessarily translates into administrative erosion. The same movement language that mobilises voters against "the establishment" can, once confronted with governing demands, produce efforts to reinforce the machinery of the state.</p>
-            <p>This tension is exactly why public administration is a useful lens for reassessing populism: it suggests that populism may function primarily as performative opposition aimed at winning office, but once in power its defining contribution—and its governing substance—becomes far less clear.</p>
-        `
-    },
-    {
         id: "hood-2007",
         title: "C. Hood 2007, Public Management: the Word, the Movement, the Science",
         date: "2007",
@@ -408,6 +366,48 @@ const blogPosts = [
             <p>I believe empirical works such as Elston and Zhang's are helpful to illuminate the conditions under which public organizations can remain responsive rather than inert. More broadly, this line of research can contribute to informing public debate by clarifying that bureaucratic performance is not merely a matter of will or effort, but is deeply shaped by factors that are often overlooked or deliberately obscured in contemporary political discourse. It is essential to share this brilliant work with a broader audience, in order to counter simplistic narratives about bureaucratic inefficiency and ultimately contribute to rebuilding trust in the institutions tasked with delivering public policy.</p>
         `
     },
+    {
+        id: "bauer-becker-2020",
+        title: "Bauer and Becker 2020: Democratic backsliding, populism and the public administration",
+        date: "2020",
+        imageDescription: "Francisco Goya, The Sleep of Reason Produces Monsters",
+        image: "assets/blog_images/bauer_becker_2020.jpg",
+        link: "",
+        summary: "This seminal piece links public administration scholarship with democratic backsliding and populism, offering a matrix of strategies populist leaders use to gain control of national bureaucracies.",
+        content: `
+            <h3>Introduction and context:</h3>
+            <p>This seminal piece fills a fundamental gap in the literature by linking public administration scholarship with the recent democratic backsliding phenomenon that has interested political scientists (and our society) in the last decade.</p>
+            <p>After the populist threat became a reality of government in several countries, political scientists have turned to studying the effect of populism on several aspects. Yet its impact on public organisations' functioning and effectiveness has only been marginally explored. But first, what is populism? And why is it linked to democratic backsliding? Although it is difficult to condense such a rich literature in only a few lines, I want to pinpoint the dominant definitions for clarity. It is indeed one of the authors' main preoccupations: getting a shared and clear definition of main concepts is a necessary prerequisite for advancing knowledge.</p>
+            <ul>
+                <li><strong>Democratic backsliding:</strong> idea associated with the erosion of political pluralism and "executive aggrandizement" (Bermeo, 2016).</li>
+                <li><strong>Populism:</strong> thin-centered ideology that divides society into two homogeneous, antagonistic camps—"the pure people" vs "the corrupt elite"—and holds that politics should express the people's general will (Mudde and Kaltwasser).</li>
+            </ul>
+            <p>Here, the authors focus on the implications that democratic backsliding has for the inner functioning of government, and refocus attention on different concrete strategies that have been implemented by populist leaders to gain control of national bureaucracies. They provide a matrix-type categorisation and brief case studies.</p>
+            <h3>Main insights:</h3>
+            <p>Their argument relies on a clear chain of thought:</p>
+            <p>The public administration has evolved to become an impartial and democratic institution &rarr; Populists dislike pluralism and democracy &rarr; Populists want to reform the public administration to gain more direct control of policy implementation, making it "an instrument of populist rule".</p>
+            <p>But populists' strategies are not uniform with regard to changing PA; different strategies emerged over time depending on two dimensions:</p>
+            <ol>
+                <li>The ideology regarding the role of PA of each populist movement, which can span from negative (PA is just an obstacle to be minimised) to positive (PA is a necessary apparatus of the state).</li>
+                <li>The robustness of the administrative order in the specific context.</li>
+            </ol>
+            <p>Based on the interaction of these different elements, the authors describe four different strategies, with four brief case studies accompanying each:</p>
+            <h4>1. Capturing – Orbán in Hungary:</h4>
+            <p>After returning to power in 2010, Viktor Orbán initiated a broad set of reforms aimed at reshaping Hungary's political system toward what he has openly termed an "illiberal democracy." A central pillar of this transformation has been the capture of the state apparatus. In practice, the government pursued administrative centralisation by reducing the autonomy and resources of subnational offices and consolidating ministries and agencies, thereby expanding the Prime Minister's Office's capacity to coordinate and monitor policy implementation. In parallel, Orbán's reforms increased political control over the senior civil service by widening discretion in top-level appointments and reinforcing the politicisation of bureaucratic careers, also through performance management tools that rewarded political loyalty.</p>
+            <h4>2. Dismantling – Alberto Fujimori's presidency (1990–2000):</h4>
+            <p>Alberto Fujimori's presidency (1990–2000) illustrates how an anti-state populist project can rapidly dismantle public administration when it encounters a fragile administrative order. After his 1992 self-coup suspended the legislature and judiciary, checks and balances remained weak, creating permissive conditions for administrative restructuring. He created a Ministry of the Presidency that took charge of major infrastructure and spending programmes, increasing presidential steering capacity. He also reversed limited decentralisation by closing regional assemblies and replacing them with local offices staffed by politically appointed members.</p>
+            <h4>3. Sabotaging – the Trump case:</h4>
+            <p>The Trump case represents an anti-state populist agenda operating under a robust administrative order that constrains large-scale transformation—shifting the strategy from capture towards sabotage. The authors emphasise that institutional checks (courts, Congress, federalism) and bureaucratic resistance limited implementation, leaving the administration with incentives to disrupt rather than redesign administrative capacity. A key instrument was personnel politicisation taken to an extreme: installing agency leaders hostile to their agencies' missions, leaving posts vacant to impede initiative, and sidelining expertise within departments. This contributed to significant attrition among skilled staff. The administration also pursued resource-based pressure, proposing steep budget cuts and agency eliminations, paired with internal directives limiting contact with media and civil society and constraining consultation in rulemaking.</p>
+            <h4>4. Reforming – Christoph Blocher and the Swiss People's Party (SVP):</h4>
+            <p>Christoph Blocher and the Swiss People's Party (SVP) illustrate a case where a populist actor with a comparatively more positive orientation pursues reform but is sharply constrained by the administrative and political order. The SVP combined neoliberal criticism of bureaucracy with demands for a "lean state," while still supporting an active state role in areas such as public safety and social protection. Yet Switzerland's coalition government structure limited executive reach: the SVP controlled only two of seven ministries and operated in a system emphasising regional autonomy and minority protection. Consequently, administrative effects were modest—Blocher claimed a constrained growth of his department, but the party itself characterised most achievements as only slight.</p>
+            <h3>Reflection:</h3>
+            <p>In the current rapidly transforming world that we live in, Bauer and Becker's case studies are already outdated. New strategies have been tested, some partially successful, others less so. What is becoming clearer in my opinion is that populism is indeed a global movement but not a global ideology. While I see commonalities worldwide in the electoral strategies adopted, populist leaders' views and policies when they are in government diverge substantially—with public administration reform as a prime case.</p>
+            <p>Consider two right-wing populist leaders who ultimately came to power: Giorgia Meloni in Italy and Donald Trump in the United States. During campaigns, their rhetoric can appear broadly comparable—scepticism toward establishment institutions, emphasis on national sovereignty, and sharp critiques of administrative "inefficiency." But in office, their trajectories point in different directions, suggesting that populism's relationship with the administration is not unequivocal.</p>
+            <p>Contrary to expectations, Meloni has proceeded to implement merit-oriented reforms and a general push for increasing the size of government staffing. This was combined with strict public finance policies and moderation in debt management.</p>
+            <p>If this trajectory holds, it may represent an outlier in the contemporary populist landscape. More importantly, it complicates the assumption that populism in power necessarily translates into administrative erosion. The same movement language that mobilises voters against "the establishment" can, once confronted with governing demands, produce efforts to reinforce the machinery of the state.</p>
+            <p>This tension is exactly why public administration is a useful lens for reassessing populism: it suggests that populism may function primarily as performative opposition aimed at winning office, but once in power its defining contribution—and its governing substance—becomes far less clear.</p>
+        `
+    }
 ];
 
 let blogListContainer, blogPostContainer, blogLandingContainer;
@@ -437,7 +437,6 @@ function renderBlogList() {
         card.className = 'blog-card';
         card.innerHTML = `
             <h3>${post.title}</h3>
-            <div class="meta">${post.imageDescription}</div>
             <div class="summary">${post.summary}</div>
         `;
         card.addEventListener('click', () => {
@@ -470,7 +469,6 @@ function showBlogPost(id) {
             <div class="blog-post-header">
                 ${imageHtml}
                 <h2>${post.title}</h2>
-                <div class="meta">Image description: ${post.imageDescription}</div>
             </div>
             <div class="blog-post-content">
                 ${post.content}
