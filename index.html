@@ -33,6 +33,8 @@
       data-panel="research">Research and Publications</button>
     <button type="button" role="tab" id="tab-teaching" aria-selected="false" aria-controls="teaching"
       data-panel="teaching">Teaching</button>
+    <button type="button" role="tab" id="tab-blog" aria-selected="false" aria-controls="blog" data-panel="blog">Academic
+      Blog</button>
   </nav>
 
   <main class="main-content">
@@ -129,6 +131,30 @@
         </li>
       </ul>
     </section>
+
+    <section id="blog" class="panel hidden" role="tabpanel" aria-labelledby="tab-blog" hidden>
+      <!-- Landing Page with Introduction -->
+      <div id="blog-landing">
+        <div class="blog-intro">
+          <p>This part of my personal page is dedicated to collect, summarize and critically review some of the most
+            influential and thought-provoking publications in my field of interest.</p>
+          <p>I decided to start publishing this commentary to systematically collect my thoughts, as well as offering
+            students and emerging scholars a comprehensive collection of timeless classics, with a fresh perspective.
+          </p>
+        </div>
+        <div id="blog-list" class="blog-list">
+          <!-- Articles list will be populated by blog.js -->
+        </div>
+      </div>
+
+      <!-- Single Article View -->
+      <div id="blog-post" class="blog-post hidden">
+        <button class="back-button">← Back to Articles</button>
+        <div class="blog-post-content">
+          <!-- Full article content will be populated by blog.js -->
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -184,6 +210,7 @@
       initFromHash();
     })();
   </script>
+  <script src="blog.js"></script>
 </body>
 
 </html>
