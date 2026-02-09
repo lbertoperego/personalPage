@@ -10,7 +10,7 @@ const blogPosts = [
         content: `
             <p><a href="https://doi.org/10.1093/oxfordhb/9780199226443.003.0002" target="_blank">Original Article</a></p>
             <h3>Introduction and context:</h3>
-            <p>This article fits into the overarching and long-going discussion on the theoretical foundations of public management as a discipline, and its difference from traditional public administration.  The author tries to undo the complications relative to the definition of public management,  starting from its etimology and history. Other notable scholars such as <a href="https://doi.org/10.2307/973030" target="_blank">H. Simon</a> and L. E. Lynn have expressed their views on this sensitive debate, that is critical to understand the pillars and future evolution of this field.</p>
+            <p>This article fits into the overarching and long-going discussion on the theoretical foundations of public management as a discipline, and its difference from traditional public administration.  The author tries to undo the complications relative to the definition of public management,  starting from its etymology and history. Other notable scholars such as <a href="https://doi.org/10.2307/973030" target="_blank">H. Simon</a> and L. E. Lynn have expressed their views on this sensitive debate, which is critical for understanding the pillars and future evolution of this field.</p>
             <h3>Key insights:</h3>
             <p>Starting from a commonly shared definition of public management as \"the study and practice of design and operation of arrangements for the provision of public services and executive government\", the author analyzes public management by focusing on three dimensions: the word, the movement and the science.</p>
             <ul>
@@ -21,7 +21,7 @@ const blogPosts = [
             <p>Hood's view can be summarized by saying that public management as a discipline is strongly dependent on argumentation and persuasion. Although it aspires to be a science, its subject-matter (organizations and decision-making) will always generate opposing world-views.</p>
             <h3>Relevance for current times:</h3>
             <p>Undergraduate students interested in this field, when facing the decision to enroll in a graduate school might be confused when seeing program names such as \"Public Policy and Administration\", \"Public Management\" or \"Government\". Where is the difference? Why should I prioritize one or the other?</p>
-            <p>Hood tries to explain us how argumentation has been central in the development of the discipline of public management, and how it will continue to play a key role in every situation when scientific principles cannot be purely applied. Students should be aware how different terms have evolved to signal different perspectives on the study of government, and how scholars might adhere to one or the other view. This does not mean that programs containing the word \"administration\" will apply exclusively concepts from the 19th century, but it is just a reminder that words matter, and their choice always has an underlying meaning.</p>
+            <p>Hood tries to explain to us how argumentation has been central in the development of the discipline of public management, and how it will continue to play a key role in every situation when scientific principles cannot be purely applied. Students should be aware how different terms have evolved to signal different perspectives on the study of government, and how scholars might adhere to one or the other view. This does not mean that programs containing the word \"administration\" will apply exclusively concepts from the 19th century, but it is just a reminder that words matter, and their choice always has an underlying meaning.</p>
         `
     },
     {
@@ -35,7 +35,7 @@ const blogPosts = [
         content: `
             <p><a href="https://doi.org/10.1093/oxfordhb/9780199226443.003.0003" target="_blank">Original Article</a></p>
             <h3>Introduction and context:</h3>
-            <p>Laurence E. Lynn is recognized as one of the leading scholars in public management and administration. I've chosen to highlight one of his articles early in this blog to offer an alternative perspective on the evolution of the field, after presenting C. Hood's views. While this  piece may not be among his most well-known works, I find it particularly insightful, especially in its treatment of historical aspects.</p>
+            <p>Laurence E. Lynn is recognized as one of the leading scholars in public management and administration. I've chosen to highlight one of his articles early in this blog to offer an alternative perspective on the evolution of the field, after presenting C. Hood's views. While this piece may not be among his most well-known works, I find it particularly insightful, especially in its treatment of historical aspects.</p>
             <h3>Key insights:</h3>
             <p>L.E. Lynn argues that public management and public administration should be considered synonyms. By defining the field as "encompassing the organizational structures, managerial practices, and institutionalized values by which officials enact the will of sovereign authority, whether that authority is prince, parliament, or civil society", he says there should be no distinction between "management" and "administration" within the public sphere. There is however a clear difference between public and private management, due to the distinctive challenges arising from features of governmental institutions.</p>
             <p>He describes the evolution of public management as a field across several eras:</p>
@@ -63,9 +63,9 @@ const blogPosts = [
         content: `
             <p><a href="https://doi.org/10.1111/j.1467-9299.1991.tb00779.x" target="_blank">Original Article</a></p>
             <h3>Introduction and context:</h3>
-            <p>This highly cited article by C. Hood introduces and captures the essence of one of the most popular and defining doctrines of public policy and administration: the New Public Management. Despite harsh criticism and attempts to reverse the main changes brought by NPM in public organizations, it cannot be denied that NPM - inspired reforms are still essential elements of modern public entities.</p>
+            <p>This highly cited article by C. Hood introduces and captures the essence of one of the most popular and defining doctrines of public policy and administration: the New Public Management. Despite harsh criticism and attempts to reverse the main changes brought by NPM in public organizations, it cannot be denied that NPM-inspired reforms are still essential elements of modern public entities.</p>
             <p>Post-NPM paradigms have all been characterized by a rejection of NPM values and ideas. However, I think it is beneficial to study and isolate its aspects that were effective, to build a more resilient future model (see <a href="https://www.tandfonline.com/doi/pdf/10.1080/14719037.2023.2281981" target="_blank">Funck and Karlsson, 2023</a> for a more complete discussion on this point).</p>
-            <p>Hood's main argument is that NPM ideas can be radically transformative, but might not be fit "for all seasons", more specifically they might not be compatible with different administrative values. I am going to summarize the key insights from the article, focusing particularly on the description and analysis of the features of NPM.</p>
+            <p>Hood's main argument is that NPM ideas can be radically transformative, but might not be fit "for all seasons", more specifically, they might not be compatible with different administrative values. I am going to summarize the key insights from the article, focusing particularly on the description and analysis of the features of NPM.</p>
             <h3>Key insights:</h3>
             <p>Hood's article can be divided into 3 parts: explanations of the rise of NPM, description of the defining doctrines of NPM and criticism.</p>
             <h4>1. Explanations for the rise of NPM:</h4>
@@ -87,6 +87,8 @@ const blogPosts = [
                 <li>More flexibility in hiring and firing, with introduction of private sector style and culture</li>
                 <li>Cutting costs, stressing efficiency in operations</li>
             </ol>
+            <h3>Relevance for current times:</h3>
+            <p>NPM-inspired reforms remain widespread. Understanding Hood's doctrines helps to recognise both the value and the limits of managerial reforms, and why "one size fits all" rarely works across different administrative cultures and contexts.</p>
         `
     },
     {
@@ -119,7 +121,7 @@ const blogPosts = [
             </ul>
             <p>The remaining two approaches focus on what should be the content of public sector strategies:</p>
             <ul>
-                <li><strong>Portfolio approach:</strong> suitable for larger and ramified organizations, it consists in grouping entities within the main organization based on strategically significant dimensions, to plan more efficiently and tailor strategies to the characteristics of the portfolio.</li>
+                <li><strong>Portfolio approach:</strong> Suitable for larger and ramified organizations, it consists in grouping entities within the main organization based on strategically significant dimensions, to plan more efficiently and tailor strategies to the characteristics of the portfolio.</li>
                 <li><strong>Competitive analysis:</strong> Considers public entities as organizations operating in a competitive environment where businesses and other enterprises are also active.</li>
             </ul>
             <p><strong>Strategic management:</strong> "Approach to strategizing by public organizations or other entities which integrates strategy formulation and implementation and typically includes strategic planning to formulate strategies, ways of implementing strategies, and continuous strategic learning."</p>
@@ -142,9 +144,10 @@ const blogPosts = [
         date: "1989",
         imageDescription: "George Tooker, 'Government Bureau' (1956), depicting people waiting at anonymous bureaucratic windows.",
         image: "assets/blog_images/wilson_1989.jpg",
-        link: "",
+        link: "https://www.basicbooks.com/titles/james-q-wilson/bureaucracy/9780465007851/",
         summary: "Wilson's book about bureaucracy can be considered one of the cornerstones of public administration literature, detailing what is generally true about government agencies.",
         content: `
+            <p><a href="https://www.basicbooks.com/titles/james-q-wilson/bureaucracy/9780465007851/" target="_blank">Original Book</a></p>
             <h3>Introduction and context:</h3>
             <p>Wilson's book about bureaucracy can be considered one of the cornerstones of public administration literature, and despite its publishing year, it still contains relevant and thought-provoking insights on bureaucratic behavior that I consider universally relevant.</p>
             <p>I happened to read this volume at the same time as Reinventing Government by Osborne and Gaebler, and I was intrigued by the strong exchange between the two. While they share the same topic (public organizations and their behaviour), the tone and objective is substantially different. Wilson takes an academic approach; he describes what is generally true about government agencies and the reasons behind the behaviour of civil servants and managers. Osborne's book is a manifesto of his movement, through which he proposes a new way of organizing and managing government agencies, attempting to reform a system that has been in place for decades.</p>
@@ -169,7 +172,7 @@ const blogPosts = [
             </ul>
             <h3>Relevance for current times:</h3>
             <p>Wilson does not shy away from offering his own perspective on public management as a discipline. He (cynically) describes it as engaging with \"a world of settled institutions designed to allow imperfect people to use flawed procedures to cope with insoluble problems\" (Chapter 20). He also emphasizes the challenges of implementing scientific methods in a field where, at the time, empirical evidence was underutilized.</p>
-            <p>He concludes by discussing possible ways to improve government organization. One of his key insights on government criticism is: \"Many of the difficulties we experience in dealing with government agencies arise from the agencies being part of a fragmented and open political system... The greatest mistake citizens can make when they complain about the bureaucracy is to suppose that their frustration arise simply out of management problems; they do not - they arise out of governance problems\". (Chapter 20)</p>
+            <p>He concludes by discussing possible ways to improve government organization. One of his key insights on government criticism is: \"Many of the difficulties we experience in dealing with government agencies arise from the agencies being part of a fragmented and open political system... The greatest mistake citizens can make when they complain about the bureaucracy is to suppose that their frustrations arise simply out of management problems; they do not - they arise out of governance problems\". (Chapter 20)</p>
             <p>I find this message incredibly powerful, as it provides a well-reasoned response to the increasingly frequent and superficial criticisms of government from global political leaders. With public trust in government steadily declining, Wilson's message could be key to shifting public perception toward a more positive view of public institutions.</p>
         `
     },
@@ -179,11 +182,15 @@ const blogPosts = [
         date: "1992",
         imageDescription: "Historical photograph from 1861 showing the United States Capitol dome under construction.",
         image: "assets/blog_images/osborne_gaebler_1992.jpg",
-        link: "",
+        link: "https://www.penguinrandomhouse.com/books/583/reinventing-government-by-david-osborne-and-ted-gaebler/",
         summary: "A manifesto for a new way of organizing and managing government agencies, proposing 10 core principles for reform.",
         content: `
-            <h3>The 10 Principles of Reform</h3>
-            <p>Through 5 years of efforts, they distilled ten core principles followed by the most virtuous American public organizations:</p>
+            <p><a href="https://www.penguinrandomhouse.com/books/583/reinventing-government-by-david-osborne-and-ted-gaebler/" target="_blank">Original Book</a></p>
+            <h3>Introduction and context:</h3>
+            <p>Osborne and Gaebler's Reinventing Government is a landmark book that influenced public sector reform in the United States and beyond. Through five years of research, they distilled ten core principles from the most innovative American public organizations of the time.</p>
+            <h3>Key insights:</h3>
+            <h4>The 10 principles of reform</h4>
+            <p>Through five years of efforts, they distilled ten core principles followed by the most virtuous American public organizations:</p>
             <ol>
                 <li>Promote competition among service providers</li>
                 <li>Empower citizens to take control</li>
@@ -196,20 +203,21 @@ const blogPosts = [
                 <li>Prefer markets to bureaucracy</li>
                 <li>Engage all sectors to solve community problems</li>
             </ol>
-            <p>These constitute a new paradigm for "reforming government" but also an analytical tool, that can be used to analyze any kind of public enterprise and propose changes based on the direction proposed.</p>
-            <h3>Case Studies: Reform in Action</h3>
-            <p>In different chapters they describe concrete examples of change for each of the key principles, showing how best performers in the country are reforming government.</p>
+            <p>These constitute a new paradigm for "reforming government" but also an analytical tool which can be used to analyse any kind of public enterprise and propose changes based on the direction proposed.</p>
+            <h4>Case studies: reform in action</h4>
+            <p>In different chapters they describe concrete examples of change for each of the key principles, showing how best performers in the country were reforming government.</p>
             <ul>
                 <li><strong>Competition in service provision (Chapter 3):</strong> Privatization of service delivery is only one possible way of increasing competition. Other forms can be to create competition between public and private providers or even between several public entities.
                 <br><em>Example:</em> New York Sanitation Department (1980s). Internal repair shops for their vehicles were inefficient, so the department started publishing financial performance charts for each shop, just as if they were private businesses. The transparency drove employees to compare to the market and improve their service, saving $2.4 million annually.</li>
                 
-                <li><strong>Mission-driven government (Chapter 4):</strong> Governments have a tendency to create new rules and entities that soon become obsolete and constitute an obstacle for efficiency. For example, spending limits introduced in 1930s got removed only in 1980s (Minnesota Agencies) or detachments created in wartimes continue to be funded in the UK). The authors identify 3 possible ways to reduce the risk of obsolete regulations: sunset laws, review commissions and zero-based budgeting. They underline the importance of designing a "mission-driven budget system" to shift from a "spend it or lose it" paradigm to a "save and invest it" one.
+                <li><strong>Mission-driven government (Chapter 4):</strong> Governments have a tendency to create new rules and entities that soon become obsolete and constitute an obstacle for efficiency. For example, spending limits introduced in the 1930s were removed only in the 1980s (Minnesota Agencies) or detachments created in wartime continue to be funded in the UK). The authors identify 3 possible ways to reduce the risk of obsolete regulations: sunset laws, review commissions and zero-based budgeting. They underline the importance of designing a "mission-driven budget system" to shift from a "spend it or lose it" paradigm to a "save and invest it" one.
                 <br><em>Example:</em> Fairfield, California (1978). Instead of traditional budgeting, they implemented mission-driven budgeting: the city council determined only broad categories of spending, without line items, and each department was allowed to keep the money not spent each year. This system allowed the city to drastically reduce spending while maintaining high levels of services, and was soon adopted by a lot of other American municipalities.</li>
                 
                 <li><strong>Citizens as customers (Chapter 6):</strong> Most government agencies do not get funds from their own customers, differently from a business. Agencies get funds from the legislature and elected boards. That is why it is so difficult to get public bureaucracy to be customer-oriented: often they are not incentivized to make the customer happy. Public entities can apply private sector methodologies such as Total Quality management to improve their customer orientation.
                 <br><em>Example:</em> Fox Valley Technical College, Wisconsin. They implemented a Total Quality approach, restructuring operations to align with student needs.</li>
             </ul>
-            <p>Pollitt & Bouckaert (who analyzed public management reform in their book first published in 2000) on the other hand, take a more measured stance: "It might work, but there will be side effects." Critics of traditional bureaucracies—such as Osborne and Gaebler—often emphasize their downsides, including rigidity and centralization, while overlooking their strengths. Bureaucracies, for example, provide continuity and uphold principles of equity. When shifting to a new paradigm, it is crucial not to disregard what is left behind.</p>
+            <h3>Relevance for current times:</h3>
+            <p>Pollitt and Bouckaert (who analysed public management reform in their book first published in 2000), on the other hand, take a more measured stance: "It might work, but there will be side effects." Critics of traditional bureaucracies—such as Osborne and Gaebler—often emphasise their downsides, including rigidity and centralisation, while overlooking their strengths. Bureaucracies, for example, provide continuity and uphold principles of equity. When shifting to a new paradigm, it is crucial not to disregard what is left behind.</p>
         `
     },
     {
@@ -230,7 +238,7 @@ const blogPosts = [
             <p>The authors carefully trace the dominant academic narrative of street-level bureaucrats as "State-Agents" back to Lipsky’s original definition. They then contrast this with an alternative perspective that emerged from their own field research, which they label as "Citizen-Agents." Below is a brief summary of these two contrasting views:</p>
             <h4>1. Street level bureaucrats as "State-Agents" - Scholarly view:</h4>
             <ul>
-                <li>Discretion is inevitable due to nature of the job: they cannot be completely controlled by their principals (elected officials)</li>
+                <li>Discretion is inevitable due to the nature of the job: they cannot be completely controlled by their principals (elected officials)</li>
                 <li>They are guided by self-interest but they can also be idealists</li>
                 <li>Their actions are part of policy-making and have a strong influence on policy results</li>
                 <li>Discretion is a danger to be controlled, although it is challenging. But in some cases it can also be a positive source of responsiveness</li>
@@ -242,7 +250,7 @@ const blogPosts = [
                 <li>They don’t see themselves as part of the process of policymaking</li>
                 <li>The role of elected officials is marginal for them</li>
             </ul>
-            <p>These conceptions seem to emerge as competing and incompatible. However, the authors strongly argue that there is not a unique truth. Actually, together they can give a more complete understanding of the functioning of the modern state. Teachers and policeman are both State- and Citizen-Agents, and despite the framing of their role, they cannot escape from the constraints of elected officials and regulations. What emerges is a desire to be recognized also as Citizen-Agents, a view that valorizes their judgement and abilities.</p>
+            <p>These conceptions seem to emerge as competing and incompatible. However, the authors strongly argue that there is not a unique truth. Actually, together they can give a more complete understanding of the functioning of the modern state. Teachers and police officers are both State- and Citizen-Agents, and despite the framing of their role, they cannot escape from the constraints of elected officials and regulations. What emerges is a desire to be recognized also as Citizen-Agents, a view that valorizes their judgement and abilities.</p>
             <h3>Methodology:</h3>
             <p>The authors employ qualitative methods within an interpretivist framework. Their focus is on the meaning that emerges from stories told by street-level bureaucrats themselves. They collected 162 first-person stories across five American public organizations, including schools, rehabilitation centers, and police stations.</p>
             <p>The strength of this method lies in the freedom it gives interviewees to express their own views and understanding of their roles. However, as the authors acknowledge, this approach risks overemphasizing dramatic or non-routine events at the expense of everyday norms.</p>
@@ -262,14 +270,14 @@ const blogPosts = [
         content: `
             <p><a href="https://doi.org/10.1093/oso/9780199268481.001.0001" target="_blank">Original Article</a></p>
             <h3>Introduction and context:</h3>
-            <p>"Public Management Reform" is the result of a remarkable effort to research, summarize and rationalize evidence of public management reforms in 12 countries, recognizing similarities and differences, and generating a general theory of government reform that has been a point of reference for scholars of the discipline for more than 20 years. Few papers that deal with public sector reforms do not cite the work of Pollit and Bouckaert.</p>
+            <p>"Public Management Reform" is the result of a remarkable effort to research, summarize and rationalize evidence of public management reforms in 12 countries, recognizing similarities and differences, and generating a general theory of government reform that has been a point of reference for scholars of the discipline for more than 20 years. Few papers that deal with public sector reforms do not cite the work of Pollitt and Bouckaert.</p>
             <p>One of the aspects that I appreciated the most in this book is the transparency of the authors, who state clearly the limitations of generalized statements on a topic that is widely shaped by rhetoric, while at the same time trying their best to collect and compare data on several countries since the 1980s. Indeed, sometimes the reader might question if the cases described are actually an instance of the same phenomenon, but the authors are very skilled in framing and substantiating what they discuss.</p>
-            <p>The main topics discussed by Pollitt and Bouckaert are: what are public management reforms; how does reform happen and why; what are the differences among the countries analyzed, both in starting point and evolution; what evidence is available on the reforms' results; what are the advantages and disadvantages of PM reform for politicians and finally what are the limits and contraddictions of PM reform.</p>
+            <p>The main topics discussed by Pollitt and Bouckaert are: what are public management reforms; how does reform happen and why; what are the differences among the countries analyzed, both in starting point and evolution; what evidence is available on the reforms' results; what are the advantages and disadvantages of PM reform for politicians and finally what are the limits and contradictions of PM reform.</p>
             <p>In the second edition published in 2004 they included case studies based on 12 OECD member countries. The amount of information contained in their book is colossal, therefore this article will focus primarily on the analytic theories that emerge from chapters 1 to 5, which can be useful for students and scholars of government. Chapters 6 and 8 focus on the relationship between PM reforms, politics and governance, while chapter 7 (which I found very convincingly argued) highlights some of the paradoxes that emerged during reforms.</p>
             <h3>Key insights:</h3>
             <h4>CHAPTER 1 - THE NATURE OF PUBLIC MANAGEMENT REFORM</h4>
             <p>This chapter is dedicated to the framing and definition of the main concepts.</p>
-            <p>Definition of public management reform: "PM reform consists of deliberate changes to the structures and processes of public sector organizations with the objective of getting them (in some sense) to run better" (pag. 8).  Some considerations stemming from their definition:</p>
+            <p>Definition of public management reform: "PM reform consists of deliberate changes to the structures and processes of public sector organizations with the objective of getting them (in some sense) to run better" (p. 8).  Some considerations stemming from their definition:</p>
             <ul>
                 <li>PM reform is "deliberate", therefore the result of a coherent set of ideas (more or less specified), that are generated from the actors that participate in the reform process (leading politicians, senior civil servants, outsiders such as academics, consultants and international organizations)</li>
                 <li>Reforms happen at different levels: Structural changes include changes to the organizations themselves, while process changes can span from HR systems to the micro processes that regulate quality standards</li>
@@ -318,8 +326,8 @@ const blogPosts = [
             <p>Then the main analysis used a Cox proportional hazards model to assess the effect of US monitoring on country domestic policies. This model is used in survival analysis to determine the influence of different variables on the time passing before an event occurs. In this case, the event is the criminalization of human trafficking in domestic law, and presence in the US reports and classification of each country are included as main explanatory variables. Moreover they measure demotions (reduction in classification) and include US aid as a potential pressure factor. Several other relevant variables were added as controls.</p>
             <p>Despite not being a causally solid framework, the authors claim that their analysis can provide enough evidence to show that indicators have a significant impact on state action, comparing the effect of TIP report with other relevant variables.</p>
             <h3>Relevance for current times:</h3>
-            <p>If on one side new techniques have made data collection more and more pervasive in our society, generating new possibilities of monitoring country performance, on the other it is becoming challenging to identify trustworthy sources of information. The World Bank Ease of Doing Business indicator was interrupted after accusations of corruption and manipulation. In the US, the responsible for labour data was recently dismissed by the president who accused her of spreading false information, and misinformation campaigns are now critical elements of national elections.</p>
-            <p>The potential of soft power based on evidence and data is reducing in this evolving landscape. Moreover, the United States seem to have abandoned their role of international moral judge, while international organizations are losing global influence. Unfortunately, physical coercion and brute force seem to be regaining ground as primary tools for influence in international politics.</p>
+            <p>If on one side new techniques have made data collection more and more pervasive in our society, generating new possibilities of monitoring country performance, on the other it is becoming challenging to identify trustworthy sources of information. The World Bank Ease of Doing Business indicator was interrupted after accusations of corruption and manipulation. In the US, the official responsible for labour data was recently dismissed by the president who accused her of spreading false information, and misinformation campaigns are now critical elements of national elections.</p>
+            <p>The potential of soft power based on evidence and data is reducing in this evolving landscape. Moreover, the United States seems to have abandoned their role of international moral judge, while international organizations are losing global influence. Unfortunately, physical coercion and brute force seem to be regaining ground as primary tools for influence in international politics.</p>
         `
     },
     {
@@ -336,11 +344,11 @@ const blogPosts = [
             <p>In their paper, Elston and Zhang contribute to the long-standing literature on the role of "bureaucrats" (or civil servants, functionaires, public employees…) in the transmission of policy from paper to practice.</p>
             <p>I believe this is a particularly interesting area of inquiry, that has a long tradition starting with Pressman and Wildawsky's very long-titled book published in 1973*.</p>
             <p>While the core mechanisms of policy implementation may not have changed substantially since the 1970s, the amount of data available to researchers has expanded dramatically, enabling more fine-grained empirical analysis and the discovery of innovative insights.</p>
-            <p>The context of this paper is the United Kingdom, a country known for a strong managerial traditions within its bureaucracy. More precisely, they analyze the requests of the House of Commons' Public Accounts Committee, an oversight (political) body tasked with auditing government programs across all public entities (bureaucratic).</p>
-            <p>The key question they try to answer is: what matters for bureaucracies to be responsive to political requests? In this case they focus on the requests coming from the PAC to the single entities, which constitute a rich dataset of 1674 requests from 2010 to 2015, including responses from the bureacracy together with time for completion (until 2020).</p>
+            <p>The context of this paper is the United Kingdom, a country known for a strong managerial tradition within its bureaucracy. More precisely, they analyze the requests of the House of Commons' Public Accounts Committee, an oversight (political) body tasked with auditing government programs across all public entities (bureaucratic).</p>
+            <p>The key question they try to answer is: what matters for bureaucracies to be responsive to political requests? In this case they focus on the requests coming from the PAC to the single entities, which constitute a rich dataset of 1674 requests from 2010 to 2015, including responses from the bureaucracy together with time for completion (until 2020).</p>
             <p>The real empirical innovation of their paper is to match this data with 4 different measures of organizational-level bureaucratic "slack", including both administrative and survey data.</p>
             <h3>Key insights:</h3>
-            <p>When assessing what matters for bureacrats' responsiveness to democratically-elected political leaders, previous literature has focused on organizational capacity, taking too often for granted that any new request (when accepted) will be implemented in existing public organizations, and forgetting that previous commitments are rarely discontinued and resources remain more or less the same. This creates a challenge for bureaucrats, who are called to continue building up new requests with limited capacity, a phenomenon that is commonly referred to as "administrative overload" (<a href="https://academic.oup.com/jpart/article/35/4/422/8176758" target="_blank">see also another very well-done paper by Kaplaner et al., 2025</a>).</p>
+            <p>When assessing what matters for bureaucrats' responsiveness to democratically-elected political leaders, previous literature has focused on organizational capacity, taking too often for granted that any new request (when accepted) will be implemented in existing public organizations, and forgetting that previous commitments are rarely discontinued and resources remain more or less the same. This creates a challenge for bureaucrats, who are called to continue building up new requests with limited capacity, a phenomenon that is commonly referred to as "administrative overload" (<a href="https://academic.oup.com/jpart/article/35/4/422/8176758" target="_blank">see also another very well-done paper by Kaplaner et al., 2025</a>).</p>
             <p>The authors argue that for implementing policies coming from the political principals, not only organizational capacity matters, but also the availability of "slack" resources that allow to adapt to new instructions.</p>
             <p>Three main empirical results emerge from their analysis:</p>
             <ul>
@@ -348,12 +356,12 @@ const blogPosts = [
                 <li>Organizations with budgetary slack are more likely to commit to a precise timeline to complete the political assignment</li>
                 <li>Organizations with budgetary slack are more likely to fulfill their commitments to the PAC (perceived slack not significant for this outcome)</li>
             </ul>
-            <p>Overall, they insist on the importance of workers-perceived slack, being the variable with the greatest explanatory power in their model. Moreover, they argue that this survey-collected variable might also a proxy for staff morale, another possible key factor for responsiveness, even if they do not empirically test for this.</p>
+            <p>Overall, they insist on the importance of workers-perceived slack, being the variable with the greatest explanatory power in their model. Moreover, they argue that this survey-collected variable might also be a proxy for staff morale, another possible key factor for responsiveness, even if they do not empirically test for this.</p>
             <h3>Methodology:</h3>
             <p>They construct a dataset with a row for each PAC request, collecting them from official reports. To each request they assign the main responsible organization, and attach specific data pertaining to each.</p>
             <p>One of the key methodological features of this article is the choice of measuring organizational slack in a more nuanced way compared to previous studies in political science / public administration. They derive from the management literature 4 different measures:</p>
             <ul>
-                <li>Budget underspending (from official budget data, lagged by one year before dependent variable so account for time effects)</li>
+                <li>Budget underspending (from official budget data, lagged by one year before the dependent variable to account for time effects)</li>
                 <li>Budget increase dummy</li>
                 <li>% of manager over total headcount (from Civil Service Statistics)</li>
                 <li>Workers-perceived slack (from two questions of the Civil Service People Survey, mean share of employees agreeing to have "an acceptable workload" and "a good work-life balance")</li>
@@ -372,9 +380,10 @@ const blogPosts = [
         date: "2020",
         imageDescription: "Francisco Goya, The Sleep of Reason Produces Monsters",
         image: "assets/blog_images/bauer_becker_2020.jpg",
-        link: "",
+        link: "https://doi.org/10.1093/ppmgov/gvz026",
         summary: "This seminal piece links public administration scholarship with democratic backsliding and populism, offering a matrix of strategies populist leaders use to gain control of national bureaucracies.",
         content: `
+            <p><a href="https://doi.org/10.1093/ppmgov/gvz026" target="_blank">Original Article</a></p>
             <h3>Introduction and context:</h3>
             <p>This seminal piece fills a fundamental gap in the literature by linking public administration scholarship with the recent democratic backsliding phenomenon that has interested political scientists (and our society) in the last decade.</p>
             <p>After the populist threat became a reality of government in several countries, political scientists have turned to studying the effect of populism on several aspects. Yet its impact on public organisations' functioning and effectiveness has only been marginally explored. But first, what is populism? And why is it linked to democratic backsliding? Although it is difficult to condense such a rich literature in only a few lines, I want to pinpoint the dominant definitions for clarity. It is indeed one of the authors' main preoccupations: getting a shared and clear definition of main concepts is a necessary prerequisite for advancing knowledge.</p>
@@ -383,7 +392,7 @@ const blogPosts = [
                 <li><strong>Populism:</strong> thin-centered ideology that divides society into two homogeneous, antagonistic camps—"the pure people" vs "the corrupt elite"—and holds that politics should express the people's general will (Mudde and Kaltwasser).</li>
             </ul>
             <p>Here, the authors focus on the implications that democratic backsliding has for the inner functioning of government, and refocus attention on different concrete strategies that have been implemented by populist leaders to gain control of national bureaucracies. They provide a matrix-type categorisation and brief case studies.</p>
-            <h3>Main insights:</h3>
+            <h3>Key insights:</h3>
             <p>Their argument relies on a clear chain of thought:</p>
             <p>The public administration has evolved to become an impartial and democratic institution &rarr; Populists dislike pluralism and democracy &rarr; Populists want to reform the public administration to gain more direct control of policy implementation, making it "an instrument of populist rule".</p>
             <p>But populists' strategies are not uniform with regard to changing PA; different strategies emerged over time depending on two dimensions:</p>
@@ -400,7 +409,7 @@ const blogPosts = [
             <p>The Trump case represents an anti-state populist agenda operating under a robust administrative order that constrains large-scale transformation—shifting the strategy from capture towards sabotage. The authors emphasise that institutional checks (courts, Congress, federalism) and bureaucratic resistance limited implementation, leaving the administration with incentives to disrupt rather than redesign administrative capacity. A key instrument was personnel politicisation taken to an extreme: installing agency leaders hostile to their agencies' missions, leaving posts vacant to impede initiative, and sidelining expertise within departments. This contributed to significant attrition among skilled staff. The administration also pursued resource-based pressure, proposing steep budget cuts and agency eliminations, paired with internal directives limiting contact with media and civil society and constraining consultation in rulemaking.</p>
             <h4>4. Reforming – Christoph Blocher and the Swiss People's Party (SVP):</h4>
             <p>Christoph Blocher and the Swiss People's Party (SVP) illustrate a case where a populist actor with a comparatively more positive orientation pursues reform but is sharply constrained by the administrative and political order. The SVP combined neoliberal criticism of bureaucracy with demands for a "lean state," while still supporting an active state role in areas such as public safety and social protection. Yet Switzerland's coalition government structure limited executive reach: the SVP controlled only two of seven ministries and operated in a system emphasising regional autonomy and minority protection. Consequently, administrative effects were modest—Blocher claimed a constrained growth of his department, but the party itself characterised most achievements as only slight.</p>
-            <h3>Reflection:</h3>
+            <h3>Relevance for current times:</h3>
             <p>In the current rapidly transforming world that we live in, Bauer and Becker's case studies are already outdated. New strategies have been tested, some partially successful, others less so. What is becoming clearer in my opinion is that populism is indeed a global movement but not a global ideology. While I see commonalities worldwide in the electoral strategies adopted, populist leaders' views and policies when they are in government diverge substantially—with public administration reform as a prime case.</p>
             <p>Consider two right-wing populist leaders who ultimately came to power: Giorgia Meloni in Italy and Donald Trump in the United States. During campaigns, their rhetoric can appear broadly comparable—scepticism toward establishment institutions, emphasis on national sovereignty, and sharp critiques of administrative "inefficiency." But in office, their trajectories point in different directions, suggesting that populism's relationship with the administration is not unequivocal.</p>
             <p>Contrary to expectations, Meloni has proceeded to implement merit-oriented reforms and a general push for increasing the size of government staffing. This was combined with strict public finance policies and moderation in debt management.</p>
@@ -437,6 +446,7 @@ function renderBlogList() {
         card.className = 'blog-card';
         card.innerHTML = `
             <h3>${post.title}</h3>
+            <div class="meta">${post.imageDescription}</div>
             <div class="summary">${post.summary}</div>
         `;
         card.addEventListener('click', () => {
@@ -459,7 +469,7 @@ function showBlogPost(id) {
     // so we'll rely on the onerror event of the img tag)
     const imageHtml = `
         <div class="blog-post-image">
-            <img src="${imagePath}" alt="${post.title}" onerror="this.parentElement.style.display='none'">
+            <img src="${imagePath}" alt="${post.imageDescription}" onerror="this.parentElement.style.display='none'">
         </div>`;
 
     // Render Post Content
@@ -469,6 +479,7 @@ function showBlogPost(id) {
             <div class="blog-post-header">
                 ${imageHtml}
                 <h2>${post.title}</h2>
+                <div class="meta">${post.imageDescription}</div>
             </div>
             <div class="blog-post-content">
                 ${post.content}
