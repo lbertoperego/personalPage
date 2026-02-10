@@ -49,7 +49,8 @@ const blogPosts = [
             <p>Lynn describes a "globalization" of the field  following the 1990s, attributing this change to the emergence of a new framework: the New Public Management. Customer-orientation, managerialism and a focus on performance were the key characteristics of this new set of ideas, that quickly spread around the world, both within institutions and in academia.</p>
             <p>The author concludes the article by trying to extract the essence of public management, regardless of national differences. Across the centuries it is the "relationship between bureaucracy and democracy, between administrators and people, between managerial responsibility and popular sovereignty and the rule of law" that has driven the discipline's evolution, among academics and practitioners.</p>
             <h3>Relevance for current times:</h3>
-            <p>In a world where political appeal changes at unforeseen speed, how is the field of public management evolving? After its moment of maximum popularity in the 1990's, New Public Management (the focus of the next post) suffered strong criticism. New paradigms such as "Governance" and "Digital governance", "Public value management" or "Agile public management" emerged more recently, each attracting considerable attention from scholars and professionals.</p>
+            <p>In a world where political appeal changes at unforeseen speed, how is the field of public management evolving? After its moment of maximum popularity in the 1990's, New Public Management (the focus of the next post) suffered strong criticism. New paradigms such as "Governance" and "Digital governance", "Public value management" or "Agile public management" emerged more recently, each attracting considerable attention from scholars and professionals. Equity, sustainability and technology are emerging as pivotal forces shaping the future of the field. Equity demands that public services integrate principles of justice, inclusivity and fairness more comprehensively. Sustainability calls for long-term orientation of policy and administrative actions. Meanwhile, technology offers new powerful tools for policy design and implementation, but also raises issues around privacy, control and sustainability. As we track progress in these critical areas, C. Hood's insight about the power of argumentation serves as a crucial reminder: while the technical aspects are paramount, the way in which new ideas are discussed and framed holds great power over their success.
+            </p>
         `
     },
     {
@@ -87,8 +88,13 @@ const blogPosts = [
                 <li>More flexibility in hiring and firing, with introduction of private sector style and culture</li>
                 <li>Cutting costs, stressing efficiency in operations</li>
             </ol>
+            <p> These ideas come mostly from private sector practices, but were inspired by new institutional economics and scientific management doctrines. Different countries adopted these principles to varying extents (ex.: Australia and New Zealand were among the first countries to implement NPM reforms, but differently from the UK).
+            <h4>3. Criticism:</h4>
+            <p>The title of this article refers to the universality and general applicability of NPM reforms. Its supporters claimed that managerial challenges in the public sector were universal. However, opposers argued that administrative values define the design of national institutions in a way that cannot be modified by altering only the settings of the system. In the last section of the article the author identifies three alternative sets of administrative values: Sigma (based on efficiency), Theta (honesty and fairness) and Lambda (resilience and reliability). His conclusion is that NPM resonates more with Sigma-type values, therefore risking to reglect other dimensions in the long-term.
+            <p>Other critics of NPM say that the movement has been characterized only by a change in language, and no substantial change in government functioning. A third criticism is that NPM reforms did not reach the objective of reducting costs per unit of service, and only contributed to create a new elite class of public managers. 
+            </p>
             <h3>Relevance for current times:</h3>
-            <p>NPM-inspired reforms remain widespread. Understanding Hood's doctrines helps to recognise both the value and the limits of managerial reforms, and why "one size fits all" rarely works across different administrative cultures and contexts.</p>
+            <p>One of the key debates linked to NPM reforms is the distinction between private and public sector. Is it right to introduce private sector elements in public sector organizations? Is a focus on efficiency hurting the equity and fairness that characterizes government entities? More cinic views might point out that an equity-driven public sector is just a romanticized vision. A convergence in practices and expectations has been continuing since the 1980's, but key distinctions between public and private remain and should remain. Not only in the kind of individuals that are attracted to work in government, but also in the mission of the organizations and mindset of its managers. Transparency, inclusion, equity and ultimately resilience should always play a leading role.</p>
         `
     },
     {
@@ -446,7 +452,6 @@ function renderBlogList() {
         card.className = 'blog-card';
         card.innerHTML = `
             <h3>${post.title}</h3>
-            <div class="meta">${post.imageDescription}</div>
             <div class="summary">${post.summary}</div>
         `;
         card.addEventListener('click', () => {
