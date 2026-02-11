@@ -175,7 +175,11 @@
     if ('scrollRestoration' in history) {
       history.scrollRestoration = 'manual';
     }
-    window.scrollTo(0, 0);
+
+    // Force scroll to the very top once the page has fully loaded.
+    window.addEventListener('load', function () {
+      window.scrollTo(0, 0);
+    });
 
     (function () {
       var nav = document.querySelector('.tab-nav');
