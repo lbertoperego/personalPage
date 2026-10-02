@@ -443,6 +443,50 @@ A careful review of existing studies and data allowed to reconstruct trajectorie
             <p>If this trajectory holds, it may represent an outlier in the contemporary populist landscape. More importantly, it complicates the assumption that populism in power necessarily translates into administrative erosion. The same movement language that mobilises voters against "the establishment" can, once confronted with governing demands, produce efforts to reinforce the machinery of the state.</p>
             <p>This tension is exactly why public administration is a useful lens for reassessing populism: it suggests that populism may function primarily as performative opposition aimed at winning office, but once in power its defining contribution—and its governing substance—becomes far less clear.</p>
         `
+    },
+    {
+        id: "garcia-hombrados-2026",
+        title: "García-Hombrados et al. 2026, Ideological Alignment and Evidence-Based Policy Adoption",
+        date: "2026",
+        imageDescription: "René Magritte, 'The Treachery of Images' (1929), an object is not always its representation.",
+        image: "assets/blog_images/MagrittePipe.jpg",
+        link: "https://doi.org/10.1257/aer.20240673",
+        summary: "Through a nationwide randomized control trial in Spanish municipalities, this paper shows that policymakers are much more likely to adopt an evidence-based policy when the evidence comes from an ideologically aligned source.",
+        content: `
+            <p><a href="https://doi.org/10.1257/aer.20240673" target="_blank">Original Article</a></p>
+            <h3>Introduction and context:</h3>
+            <p>Performing credible and interesting policy evaluations is surely an important endeavour for students and practitioners of public policy, with important implications for societal wellbeing. However, regardless of the merits of a particular policy, evaluations can become just an abstract exercise if they don't have an audience, which should naturally be decision-makers operating in that same policy area. If the objective of policy evaluation is then to inform further policies, a key focus should be on how to maximize the possibility that decision-makers operating in that area listen and act on the results achieved. This is inherently a political process, with very uncertain outcomes and high stakes.</p>
+            <p>Imagine tomorrow a study proves through a very accurate statistical modeling that a congestion charge would reduce traffic and pollution at relatively low cost. The evidence is extremely solid, but the author is a research center associated with a strong partisan leaning. Moreover, elections are approaching and the mayor is reluctant to oppose dominant business groups. These dynamics determine the political economy of policy evaluation and implementation, of which this paper is a prime example.</p>
+            <p>I found this paper extremely interesting both for the relevance of its findings and the methodology utilized. Through a clever randomized control trial it provides insightful findings to students and researchers of the field.</p>
+            <h3>Key insights:</h3>
+            <p>The researchers wanted to study the impact of communicating research evidence on the adoption of evidence-based policies, in the context of Spanish municipalities. More interestingly, they focused on the effect of ideological alignment between policymakers and the institutions communicating the evidence.</p>
+            <p>The policy chosen was a low-cost action to promote tourism through improvements to the town's Wikipedia pages. They randomized 5,678 municipalities (two thirds of Spanish municipalities, selected to be interested by tourism) to receive the same evidence from different institutions, while a control group received no information:</p>
+            <ul>
+                <li>Aligned think tank: FAES for right-wing municipalities and Fundación Alternativas for left-wing municipalities.</li>
+                <li>Opposite think tank: Fundación Alternativas to right-wing municipalities and FAES to left-wing municipalities.</li>
+                <li>Nonsalient institution: London School of Economics (LSE).</li>
+                <li>Aligned newspaper: El Mundo for right-wing municipalities and elDiario.es for left-wing municipalities.</li>
+                <li>Opposite newspaper: elDiario.es for right-wing municipalities and El Mundo for left-wing municipalities.</li>
+            </ul>
+            <p>The initial contact email was sent by a research center specialized in tourism, based in the University of Las Palmas de Gran Canaria. Once opened, the email contained basic information on the policy and a link to the policy brief or article assigned according to the randomization process.</p>
+            <p>Policy adoption was measured through changes in the municipalities' Wikipedia page during the study period (May-December 2022), in the fields recommended by the intervention (local festivities, touristic landmarks information, photographs).</p>
+            <p>The causal effects from linear probability models show:</p>
+            <ul>
+                <li>Overall, simply receiving a communication about the evidence increased policy adoption by about 38% relative to the control group (but this pooled effect was not statistically significant at conventional levels)</li>
+                <li>Information from an ideologically aligned source increased policy adoption by more than 65% relative to the control group, and by 59% relative to information from an ideologically opposed source.</li>
+                <li>Information from an ideologically opposed source had no effect on policy adoption compared with receiving no information.</li>
+                <li>Policy briefs and newspaper articles were similarly effective when the source was ideologically aligned.</li>
+            </ul>
+            <p>With a complementary survey experiment involving 1,600 local policymakers, the authors also proved that ideological alignment affects belief updating: policymakers revised their beliefs substantially more when evidence came from an aligned or ideologically nonsalient institution than when it came from an ideologically opposed institution.</p>
+            <h3>Methodology:</h3>
+            <p>The main part of the analysis was conducted through an RCT, which represents the "gold standard" for producing credible causal estimates in academic research.</p>
+            <p>The key feature of the design is that the substantive information provided is kept essentially constant, while the ideological alignment and nature of the institution communicating it is randomized, therefore the treatment assignment mechanism is exogenous to the outcome measured. As expected, municipalities in the different groups are comparable for all observable characteristics (see balancing tables in the paper).</p>
+            <p>In the main analysis, they compare adoption rates using linear probability models with randomization-strata fixed effects. They also track email openings and clicks, to be sure about the mechanism.</p>
+            <p>As robustness tests they show that there are no significant differences in click rates across treatment arms, therefore differences in policy implementation are likely to derive from belief updating rather than information access alone.</p>
+            <h3>Relevance for current times:</h3>
+            <p>In an increasingly polarized world, effectively communicating even objective research findings has become more difficult. Traditional sources of expertise are increasingly perceived through an ideological lens; even academic institutions, which should represent the impartial values of knowledge and truth, are becoming more and more associated with political ideologies (see the battle against Wokeism in American Universities). As a consequence, both citizens and policymakers may become skeptical in following advice coming from once considered reputable sources.</p>
+            <p>Of course, many research findings are genuinely contested and inevitably intersect with partisan debates, particularly in the social sciences. The broader risk, however, is that credible research becomes increasingly disconnected from actual decision-making. If policymakers accept or reject evidence primarily according to the perceived ideology of its source, policy advice may become more about which voices are most visible in the public debate.</p>
+        `
     }
 ];
 
