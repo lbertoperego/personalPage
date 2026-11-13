@@ -563,16 +563,13 @@ function renderBlogList() {
 
     blogListContainer.innerHTML = '';
     blogPosts.forEach(post => {
-        const card = document.createElement('div');
+        const card = document.createElement('a');
         card.className = 'blog-card';
+        card.href = '#blog/' + encodeURIComponent(post.id);
         card.innerHTML = `
             <h3>${post.title}</h3>
             <div class="summary">${post.summary}</div>
         `;
-        card.addEventListener('click', () => {
-            console.log('Card clicked:', post.id);
-            showBlogPost(post.id);
-        });
         blogListContainer.appendChild(card);
     });
     console.log('Rendered', blogPosts.length, 'blog cards');
@@ -580,7 +577,7 @@ function renderBlogList() {
 
 function showBlogPost(id) {
     const post = blogPosts.find(p => p.id === id);
-    if (!post) return;
+    if (!post) return false;
 
     const imageClass = post.imageFit === "contain" ? "blog-post-image is-contain" : "blog-post-image";
     const imageHtml = post.image ? `
@@ -592,7 +589,7 @@ function showBlogPost(id) {
     // Render Post Content
     blogPostContainer.innerHTML = `
         <div class="blog-post-container">
-            <button class="back-button">← Back to Articles</button>
+            <button type="button" class="back-button">← Back to Articles</button>
             <div class="blog-post-header">
                 ${imageHtml}
                 <h2>${post.title}</h2>
@@ -607,7 +604,9 @@ function showBlogPost(id) {
     // Re-attach event listener to the new back button
     const backBtn = blogPostContainer.querySelector('.back-button');
     if (backBtn) {
-        backBtn.addEventListener('click', showBlogList);
+        backBtn.addEventListener('click', () => {
+            location.hash = '#blog';
+        });
     }
 
     if (blogLandingContainer) {
@@ -619,7 +618,33 @@ function showBlogPost(id) {
     blogPostContainer.classList.remove('hidden');
 
     window.scrollTo(0, 0);
+    return true;
 }
+
+function syncBlogFromHash() {
+    if (!blogPostContainer) return;
+
+    const raw = location.hash ? location.hash.slice(1) : '';
+    const slash = raw.indexOf('/');
+    const panel = slash === -1 ? raw : raw.slice(0, slash);
+    const postId = slash === -1 ? '' : decodeURIComponent(raw.slice(slash + 1));
+
+    if (panel !== 'blog') {
+        showBlogList();
+        return;
+    }
+
+    if (postId && showBlogPost(postId)) return;
+
+    const wasReading = !blogPostContainer.classList.contains('hidden');
+    showBlogList();
+    if (postId && location.hash !== '#blog') {
+        history.replaceState(null, null, '#blog');
+    }
+    if (wasReading) window.scrollTo(0, 0);
+}
+
+window.syncBlogFromHash = syncBlogFromHash;
 
 function showBlogList() {
     blogPostContainer.classList.add('hidden');
@@ -633,4 +658,5 @@ function showBlogList() {
 // Initialize when the DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     initBlog();
+    syncBlogFromHash();
 });
