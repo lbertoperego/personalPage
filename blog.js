@@ -487,6 +487,56 @@ A careful review of existing studies and data allowed to reconstruct trajectorie
             <p>In an increasingly polarized world, effectively communicating even objective research findings has become more difficult. Traditional sources of expertise are increasingly perceived through an ideological lens; even academic institutions, which should represent the impartial values of knowledge and truth, are becoming more and more associated with political ideologies (see the battle against Wokeism in American Universities). As a consequence, both citizens and policymakers may become skeptical in following advice coming from once considered reputable sources.</p>
             <p>Of course, many research findings are genuinely contested and inevitably intersect with partisan debates, particularly in the social sciences. The broader risk, however, is that credible research becomes increasingly disconnected from actual decision-making. If policymakers accept or reject evidence primarily according to the perceived ideology of its source, policy advice may become more about which voices are most visible in the public debate.</p>
         `
+    },
+    {
+        id: "zhang-et-al-2026",
+        title: "Zhang et al. 2026, Are Public Officials More Risk-Averse than Private Sector Employees?",
+        date: "2026",
+        imageDescription: "Auguste Rodin, 'The Thinker' (Le Penseur), a bronze figure paused in thought.",
+        image: "assets/blog_images/zhang_et_al_2026.jpg",
+        imageFit: "contain",
+        link: "https://doi.org/10.1093/jopart/muag006",
+        summary: "Through two survey experiments in China, this paper shows that public officials are more risk-averse than private sector employees when decisions can harm the public interest, and especially when accountability is punitive and focused on outcomes.",
+        content: `
+            <p><a href="https://doi.org/10.1093/jopart/muag006" target="_blank">Original Article</a></p>
+            <h3>Introduction and context:</h3>
+            <p>In the citizens' minds, public bureaucracies are often associated with risk aversion and conservative decisions. A large literature has studied this phenomenon, coming up with different explanations. One stream of literature has focused on self-selection mechanisms into public sector jobs (Bellante and Link, 1981; Chang, 2024), while another on organizational socialization (Lee et al., 2026). At the basis of this argument however, hard evidence is scarce and contradictory to prove the point that public officials are more risk averse than the average person. This paper managed to answer this point and it did so by adding a very interesting additional layer: under which conditions civil servants become more risk averse?</p>
+            <p>By putting respondents from different sectors in front of an investment decision involving a certain degree of risk, and by varying contextual conditions of accountability, the authors were able to provide a novel contribution on a long-standing question. Although the paper remains quite theoretical and only provides survey experimental data from a particular country case (China), this work speaks to several concrete issues in government, on which I will talk about more in the last paragraphs.</p>
+            <h3>Key insights:</h3>
+            <p>The main argument of the paper is that public officials are not necessarily more risk-averse because of their individual characteristics, but that their risk preferences depend heavily on the context in which decisions are made and the institutional incentives they face.</p>
+            <p>The authors draw on blame avoidance theory (prospect theory), which suggests that public officials may be particularly concerned with avoiding responsibility for negative outcomes, but also integrate specific contextual conditions that are typical in a public sector setting: individuals' decisions not only matter for their private sphere, but can extensively affect the public interest.</p>
+            <p>Three main empirical results emerge from their analysis:</p>
+            <ul>
+                <li>Public officials are more risk-averse than private sector workers when decisions involve potential losses to the public interest. In the first experiment, only 35.4% of public officials chose the risky option when facing potential public losses, compared to 55.5% of private sector employees. No statistically significant differences are found when decisions involve potential gains or exclusively private interests.</li>
+                <li>Public officials do not necessarily follow the predictions of prospect theory. Interestingly, when dealing with public interests, bureaucrats are less willing to take risks under a loss frame than under a gain frame, contrary to the traditional prediction that people become more risk-seeking when facing losses. The authors interpret this as evidence that institutional responsibilities and the potential consequences of failure can override individual decision-making biases.</li>
+                <li>The structure of accountability matters for risk-taking behavior. Public officials are significantly more risk-averse than private sector employees when accountability is simultaneously punishment-oriented and focused on outcomes. Conversely, when accountability focuses on the decision-making process rather than its final outcomes, or when it rewards good performance instead of punishing failures, the differences between the two groups are not statistically significant.</li>
+            </ul>
+            <p>The findings therefore suggest that bureaucratic risk aversion is not simply an individual characteristic, but is also shaped by the institutional environment in which public officials operate.</p>
+            <h3>Methodology:</h3>
+            <p>The authors conduct two survey experiments using samples of Chinese public officials and private sector employees recruited through an online research platform. The experiments rely on hypothetical decision-making scenarios, in which participants are randomly assigned to different conditions and asked to express their risk preferences.</p>
+            <h4>Experiment 1: Public versus private interests</h4>
+            <p>The first experiment uses a 3 × 2 experimental design combining two dimensions:</p>
+            <ul>
+                <li>Type of interest involved in the decision: Public interest, private interest, or a combination of public and private interests.</li>
+                <li>Decision frame: Gains versus losses.</li>
+            </ul>
+            <p>Participants are presented randomly with a hypothetical investment decision involving a choice between a certain outcome and a risky alternative with the same expected value (as it is typical in prospect theory-based experiments).</p>
+            <p>The authors then compare the proportion of public officials and private sector employees choosing the risky alternative across the six experimental conditions, using chi-square tests to assess the statistical significance of the differences.</p>
+            <h4>Experiment 2: The role of accountability</h4>
+            <p>The second experiment employs the same hypothetical investment decision and uses a 2 × 2 experimental design combining two dimensions of accountability informed by the literature:</p>
+            <ul>
+                <li>Reward-oriented versus punishment-oriented accountability: Whether decision-makers are rewarded for good performance or punished for failures.</li>
+                <li>Process-oriented versus outcome-oriented accountability: Whether decision-makers are evaluated based on the procedures followed or on the final results achieved.</li>
+            </ul>
+            <p>An additional control group receives no explicit information about accountability arrangements.</p>
+            <p>This time participants are asked how willing they would be to take responsibility for its implementation, on a scale from 0 to 10. Higher scores are interpreted as greater willingness to take risks.</p>
+            <p>The authors use ANOVA and regression analysis to examine how different accountability conditions affect the risk preferences of the two groups. They also control for several individual characteristics that might influence decision-making, including personal risk attitudes, goal orientation, public service motivation, and social responsibility.</p>
+            <h3>Relevance for current times:</h3>
+            <p>The authors didn't discover bureaucratic risk-aversion, but just provided some of the first rigorous evidence on this phenomenon. It is indeed a very well-known issue for advanced democracies, which is also reflected in the classic depiction of public sector workers in popular media.</p>
+            <p>The implications of this phenomenon go in different directions: if on the one hand risk aversion (arguably combined with civil service protections) can shield citizens from private interest capture, on the other, when combined with punitive accountability mechanisms, it may contribute to a state of so-called administrative paralysis, where public officials become increasingly reluctant to take decisions involving uncertainty. Countries like Italy where regulations are poorly written and courts accumulate strong punitive powers are a great example of this condition (see <a href="https://doi.org/10.1257/aer.20190672" target="_blank">Gratton et al., 2021: From Weber to Kafka: Political Instability and the Overproduction of Laws</a>).</p>
+            <p>Now, a new and potentially more dangerous dimension of this problem is emerging in the context of hybrid warfare. External actors are leveraging bureaucratic risk aversion to generate paralysis in service delivery, and fear in the population. Recent episodes of false bomb threats targeting schools and commercial flights put public decision-makers in the challenging position of deciding whether to continue service delivery under a heightened risk or block it to avoid potential damages. By artificially altering risk perception in different public sector areas, malicious actors exploit the very mechanisms designed to protect citizens.</p>
+            <p>Finding solutions is far from straightforward, as public institutions must remain cautious when facing potentially catastrophic risks. But while hoping that these fake messages do not turn into real threats to citizens, policymakers are called to reflect on how to adapt to a potential new normal.</p>
+        `
     }
 ];
 
@@ -532,15 +582,12 @@ function showBlogPost(id) {
     const post = blogPosts.find(p => p.id === id);
     if (!post) return;
 
-    // Use defined image path
-    const imagePath = post.image;
-
-    // Check if the image exists (this is tricky in client-side JS without causing 404 console errors, 
-    // so we'll rely on the onerror event of the img tag)
-    const imageHtml = `
-        <div class="blog-post-image">
-            <img src="${imagePath}" alt="${post.imageDescription}" onerror="this.parentElement.style.display='none'">
-        </div>`;
+    const imageClass = post.imageFit === "contain" ? "blog-post-image is-contain" : "blog-post-image";
+    const imageHtml = post.image ? `
+        <div class="${imageClass}">
+            <img src="${post.image}" alt="${post.imageDescription}" onerror="this.parentElement.style.display='none'">
+        </div>` : "";
+    const captionHtml = post.imageDescription ? `<div class="meta">${post.imageDescription}</div>` : "";
 
     // Render Post Content
     blogPostContainer.innerHTML = `
@@ -549,7 +596,7 @@ function showBlogPost(id) {
             <div class="blog-post-header">
                 ${imageHtml}
                 <h2>${post.title}</h2>
-                <div class="meta">${post.imageDescription}</div>
+                ${captionHtml}
             </div>
             <div class="blog-post-content">
                 ${post.content}

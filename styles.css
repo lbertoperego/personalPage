@@ -453,6 +453,22 @@ body {
   object-fit: cover;
 }
 
+.blog-post-image.is-contain {
+  display: block;
+  max-height: none;
+  height: auto;
+  overflow: visible;
+}
+
+.blog-post-image.is-contain img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  object-position: center center;
+}
+
 .blog-post-header {
   text-align: center;
   margin-bottom: var(--space-xl);
