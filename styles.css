@@ -481,6 +481,17 @@ body {
   margin-bottom: var(--space-xl);
 }
 
+.blog-post-header h2 {
+  margin-bottom: var(--space-sm);
+}
+
+.blog-post-venue {
+  margin: 0 0 var(--space-md);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
 .back-button {
   background: none;
   border: none;

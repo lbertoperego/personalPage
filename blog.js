@@ -3,6 +3,7 @@ const blogPosts = [
         id: "hood-2007",
         title: "C. Hood 2007, Public Management: the Word, the Movement, the Science",
         date: "2007",
+        publishedIn: "Published in The Oxford Handbook of Public Management",
         imageDescription: "Abstract geometric composition of circles, lines and dots in grey and blue tones.",
         image: "assets/blog_images/hood_2007.webp",
         link: "https://doi.org/10.1093/oxfordhb/9780199226443.003.0002",
@@ -28,6 +29,7 @@ const blogPosts = [
         id: "lynn-2009",
         title: "L. E. Lynn 2009, Public Management: a Concise History of the Field",
         date: "2009",
+        publishedIn: "Published in The Oxford Handbook of Public Management",
         imageDescription: "A traditional painting of three Chinese officials in red, blue and green robes, sitting in a garden.",
         image: "assets/blog_images/lynn_2009.jpeg",
         link: "https://doi.org/10.1093/oxfordhb/9780199226443.003.0003",
@@ -57,6 +59,7 @@ const blogPosts = [
         id: "hood-1991",
         title: "C. Hood 1991, A Public Management for All Seasons?",
         date: "1991",
+        publishedIn: "Published in Public Administration",
         imageDescription: "Giuseppe Arcimboldo's 'Four Seasons' (1573), composite portraits made of seasonal plants and fruits.",
         image: "assets/blog_images/hood_1991.jpg",
         link: "https://doi.org/10.1111/j.1467-9299.1991.tb00779.x",
@@ -101,6 +104,7 @@ const blogPosts = [
         id: "bryson-george-2020",
         title: "J. Bryson and B. George 2020, Strategic Management in Public Administration",
         date: "2020",
+        publishedIn: "Published in the Oxford Research Encyclopedia of Politics",
         imageDescription: "Honoré Daumier, 'The Chess Players' (1863-67), two men deeply focused on a chess board.",
         image: "assets/blog_images/bryson_george_2020.jpg",
         link: "https://doi.org/10.1093/acrefore/9780190228637.013.1396",
@@ -150,6 +154,7 @@ Other research has investigated the impact of strategic planning on organization
         id: "wilson-1989",
         title: "Wilson 1989, Bureaucracy: What Government Agencies Do and Why They Do It",
         date: "1989",
+        publishedIn: "Published by Basic Books",
         imageDescription: "George Tooker, 'Government Bureau' (1956), depicting people waiting at anonymous bureaucratic windows.",
         image: "assets/blog_images/wilson_1989.jpg",
         link: "https://www.basicbooks.com/titles/james-q-wilson/bureaucracy/9780465007851/",
@@ -188,6 +193,7 @@ Other research has investigated the impact of strategic planning on organization
         id: "osborne-gaebler-1992",
         title: "Osborne and Gaebler, 1992: Reinventing Government",
         date: "1992",
+        publishedIn: "Published by Addison-Wesley",
         imageDescription: "Historical photograph from 1861 showing the United States Capitol dome under construction.",
         image: "assets/blog_images/osborne_gaebler_1992.jpg",
         link: "https://www.penguinrandomhouse.com/books/583/reinventing-government-by-david-osborne-and-ted-gaebler/",
@@ -242,6 +248,7 @@ Pollitt & Bouckaert (who analyzed public management reform in their book first p
         id: "maynard-moody-musheno-2000",
         title: "Maynard-Moody and Musheno, 2000: State Agent or Citizen Agent",
         date: "2000",
+        publishedIn: "Published in the Journal of Public Administration Research and Theory",
         imageDescription: "A colorful modern illustration of street-level bureaucrats like police and teachers interacting with citizens.",
         image: "assets/blog_images/maynardmoody_musheno_2000.jfif",
         link: "https://doi.org/10.1093/oxfordjournals.jpart.a024272",
@@ -281,6 +288,7 @@ Pollitt & Bouckaert (who analyzed public management reform in their book first p
         id: "pollitt-bouckaert-2004",
         title: "Pollitt and Bouckaert, 2004: Public Management Reform: a Comparative Analysis",
         date: "2004",
+        publishedIn: "Published by Oxford University Press",
         imageDescription: "Umberto Boccioni, 'The City Rises' (1910), a dynamic painting showing the energy of urban work and growth.",
         image: "assets/blog_images/pollitt_bouckaert_2004.jpg",
         link: "https://doi.org/10.1093/oso/9780199268481.001.0001",
@@ -325,6 +333,7 @@ A careful review of existing studies and data allowed to reconstruct trajectorie
         id: "kelley-simmons-2015",
         title: "Kelley and Simmons, 2015: Politics by Number",
         date: "2015",
+        publishedIn: "Published in the American Journal of Political Science",
         imageDescription: "An editorial illustration of a speaker pointing towards international flags, with a performance chart in the background.",
         image: "assets/blog_images/kelley_simmons_2015.png",
         link: "https://doi.org/10.1111/ajps.12119",
@@ -360,6 +369,7 @@ A careful review of existing studies and data allowed to reconstruct trajectorie
         id: "elston-zhang-2025",
         title: "Elston and Zhang, 2025: Ready, willing, and able?",
         date: "2025",
+        publishedIn: "Published in the Journal of Public Administration Research and Theory",
         imageDescription: "An illustration representing the UK House of Commons' Public Accounts Committee in session within the House of Commons.",
         image: "assets/blog_images/elston_zhang_2025.png",
         link: "https://doi.org/10.1093/jopart/muaf021",
@@ -405,6 +415,7 @@ A careful review of existing studies and data allowed to reconstruct trajectorie
         id: "bauer-becker-2020",
         title: "Bauer and Becker 2020: Democratic backsliding, populism and the public administration",
         date: "2020",
+        publishedIn: "Published in Perspectives on Public Management and Governance",
         imageDescription: "Francisco Goya, The Sleep of Reason Produces Monsters",
         image: "assets/blog_images/bauer_becker_2020.jpg",
         link: "https://doi.org/10.1093/ppmgov/gvz026",
@@ -448,6 +459,7 @@ A careful review of existing studies and data allowed to reconstruct trajectorie
         id: "garcia-hombrados-2026",
         title: "García-Hombrados et al. 2026, Ideological Alignment and Evidence-Based Policy Adoption",
         date: "2026",
+        publishedIn: "Published in the American Economic Review",
         imageDescription: "René Magritte, 'The Treachery of Images' (1929), an object is not always its representation.",
         image: "assets/blog_images/MagrittePipe.jpg",
         link: "https://doi.org/10.1257/aer.20240673",
@@ -492,6 +504,7 @@ A careful review of existing studies and data allowed to reconstruct trajectorie
         id: "zhang-et-al-2026",
         title: "Zhang et al. 2026, Are Public Officials More Risk-Averse than Private Sector Employees?",
         date: "2026",
+        publishedIn: "Published in the Journal of Public Administration Research and Theory",
         imageDescription: "Auguste Rodin, 'The Thinker' (Le Penseur), a bronze figure paused in thought.",
         image: "assets/blog_images/zhang_et_al_2026.jpg",
         imageFit: "contain",
@@ -584,6 +597,7 @@ function showBlogPost(id) {
         <div class="${imageClass}">
             <img src="${post.image}" alt="${post.imageDescription}" onerror="this.parentElement.style.display='none'">
         </div>` : "";
+    const venueHtml = post.publishedIn ? `<p class="blog-post-venue">${post.publishedIn}</p>` : "";
     const captionHtml = post.imageDescription ? `<div class="meta">${post.imageDescription}</div>` : "";
 
     // Render Post Content
@@ -593,6 +607,7 @@ function showBlogPost(id) {
             <div class="blog-post-header">
                 ${imageHtml}
                 <h2>${post.title}</h2>
+                ${venueHtml}
                 ${captionHtml}
             </div>
             <div class="blog-post-content">
